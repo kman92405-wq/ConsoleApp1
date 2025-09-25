@@ -15,7 +15,10 @@ class Program
             return;
         }
 
+        double final = 3 * Math.Sin(x + 2);
+        Console.WriteLine($"Результат: {final}");
         Console.ReadKey();
     }
 }
+
 
